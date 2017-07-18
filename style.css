@@ -86,6 +86,11 @@ body{
 	background-repeat: no-repeat;
 }
 
+#QsDiv{
+	padding: 20px;
+	margin-top: 50px;
+}
+
 footer{
 	font-family: 'Monoton', cursive;
 	font-size: 12px;
