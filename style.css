@@ -1,0 +1,98 @@
+h1{
+	font-family: 'Monoton', cursive;
+	font-size: 70px;
+	color: black;
+	font-weight: bolder;
+}
+
+h2{
+	font-family: 'Monoton', cursive;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+
+.mainblocks{
+	position: absolute;
+}
+
+.gameObjects{
+	opacity:1.0;
+	height: 110px;
+	/*width: 110px;*/
+	width: 50%;
+	margin-left:70px;
+	margin-right:70px;  
+}
+
+.mainmenu:hover, .gameagain:hover, .gameObjects:hover{
+	cursor: pointer;
+}
+
+.mainmenu:hover, .gameagain:hover {
+color: gray;
+}
+
+
+#gameOverScreen, #titlepage{
+	margin-top: 40px;
+	height: 450px;
+	background: white;
+	opacity: 0.6;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#GUILeft, #GUIRight{
+	margin-top: 40px;
+	height: 450px;
+	background: white;
+	opacity: 0.8;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	align-items: center;
+	font-family: 'Monoton', cursive;
+	font-size: 20px;
+	font-weight: bolder; 
+	text-align: center;
+}
+
+#GameEnd, #titleblock{
+	padding-top:175px;
+	padding-bottom: 175px; 
+	font-family: 'Monoton', cursive;
+	font-size: 20px;
+	font-weight: bolder; 
+	text-align: center;
+	color: black;
+	width:100%;
+}
+
+#spacer{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+body{
+	background-image: url("assets/gym.jpg");
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+}
+
+footer{
+	font-family: 'Monoton', cursive;
+	font-size: 12px;
+	font-weight: bolder; 
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 555px;
+	left: 20px;
+}
