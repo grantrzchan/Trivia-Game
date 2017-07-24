@@ -21,29 +21,17 @@ h1, h2{
 	position: absolute;
 }
 
-.gameObjects{
-	opacity:1.0;
-	height: 110px;
-	/*width: 110px;*/
-	width: 50%;
-	margin-left:70px;
-	margin-right:70px;  
-}
 
-.mainmenu:hover, .gameagain:hover, .gameObjects:hover{
+.mainmenu:hover, .gameagain:hover, .selection:hover{
 	cursor: pointer;
-}
-
-.mainmenu:hover, .gameagain:hover {
-color: gray;
+	color: gray;
 }
 
 
 #gameOverScreen, #titlepage{
 	margin-top: 40px;
 	height: 450px;
-	background: white;
-	opacity: 0.6;
+	background: rgba(255, 255, 255, 0.8);
 	border-color: black;
 	border-style: solid;
 	border-width: 2px;
@@ -52,8 +40,7 @@ color: gray;
 #GUILeft, #GUIRight{
 	margin-top: 40px;
 	height: 450px;
-	background: white;
-	opacity: 0.8;
+	background: rgba(255, 255, 255, 0.8);
 	border-color: black;
 	border-style: solid;
 	border-width: 2px;
@@ -65,7 +52,7 @@ color: gray;
 }
 
 #GameEnd, #titleblock{
-	padding-top:175px;
+	padding-top:125px;
 	padding-bottom: 175px; 
 	font-family: 'Monoton', cursive;
 	font-size: 20px;
@@ -75,7 +62,7 @@ color: gray;
 	width:100%;
 }
 
-#spacer{
+.spacer{
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -91,13 +78,65 @@ body{
 	margin-top: 50px;
 }
 
+.gameObjs{
+	width:95%;
+	align-items: center;
+}
+
+#dumb0{
+	height: 40px;
+}
+
+#dumb1{
+	height: 60px;
+}
+
+#dumb2{
+	height: 90px;
+}
+
+#dumb3{
+	height: 110px;
+}
+
+#dumb4{
+	height: 140px;
+}
+
 footer{
 	font-family: 'Monoton', cursive;
 	font-size: 12px;
 	font-weight: bolder; 
 	text-align: center;
-	color: white;
+	color: black;
 	position: relative;
 	top: 555px;
-	left: 20px;
+	right: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+	footer{
+		position: relative;
+		top: 1000px;
+	}
+
+	body{
+		background-size: auto;
+		background-repeat: repeat-y;	
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	
+	footer{
+		position: relative;
+		top: 1000px;
+	}
+
+	body{
+		background-size: auto;
+		background-repeat: repeat-y;	
+	}
 }
