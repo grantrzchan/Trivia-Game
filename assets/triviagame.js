@@ -1,3 +1,6 @@
+//Preapre Document
+$( document ).ready();
+
 //Initialize Game Variables
 var ReturnToMain = null;
 var PlayAgain = null;
